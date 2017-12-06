@@ -16,7 +16,9 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
-
+@import "font-awesome-sprockets";
+@import "font-awesome";
+//typography style
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
@@ -31,6 +33,7 @@ h1, h2, h3 {
 
     
 }
+//navbar styles
 .navbar, .home-callout {
     border:none;
 }
@@ -44,7 +47,7 @@ h1, h2, h3 {
     }
     
 }
-
+//homepage styles
 .home-callout {
     color: white;
     margin-top: -20px;
